@@ -1,0 +1,134 @@
+/*General Styles*/
+* {
+	margin: 0;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	background: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+a {
+	color: seashell;
+	text-decoration: underline;
+}
+
+/*Header Section*/
+header {
+	width: 100%;
+	height: 69px;
+	background: black;
+	border-bottom: 1px solid seashell;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 2;
+}
+
+header img {
+	height: 50px;
+	padding-left: 10px;
+}
+
+nav span {
+	padding: 0 10px;
+}
+
+/*Main Section*/
+main {
+	padding-top: 70px;
+}
+
+/*Jumbotron Section*/
+.jumbotron {
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+	background: url("./resources/images/img-mission-background.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner {
+	width: 100%;
+	height: 100px;
+	background: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/*Feature Section*/
+#featured-tea {
+	width: 1000px;
+	margin: 70px auto;
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.feature-box {
+	margin: 15px;
+}
+
+.features img {
+	height: 200px;
+	width: 300px;
+}
+
+.feature-box h4 {
+	margin-top: 10px;
+}
+
+/*Locations Section*/
+#locations {
+	width: 1200px;
+	margin: auto;
+	background: url("./resources/images/img-locations-background.jpg");
+}
+
+.location-content {
+	height: 500px;
+	width: 100%;
+	padding-top: 70px;
+}
+
+.outlets {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.outlet {
+	height: 280px;
+	width: 300px;
+	margin: 0 20px;
+	background: black;
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/*Contacts Section*/
+.contacts {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/*Footer Section*/
+footer {
+	margin: 20px;
+	text-align: left;
+}
